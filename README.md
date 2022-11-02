@@ -1,14 +1,20 @@
 # php-cafeteria-project
-Cafeteria project created with php.
-About Our Project
-1- download project .
-2- import the sql file to your database management system .
-3- you must change configuration in .env file as follow:-
-DATABASE=mysql
-DATABASE_HOST=localhost
-DATABASE_NAME=cafeteria
-DATABASE_USERNAME=root	
-DATABASE_PASSWORD=
-4- you must adjust some pathes of css and javascript 
-5- finaly you can enjoy in our cafetria 
+<h1>Cafeteria project created with php.</h1>
+How to run Our Project
+<ol>
+	<li> download project .</li>
+	<li> import the sql file to your database management system </li>
+	<li>you must change configuration in .env file as follow:-
+		<ul>
+				<li>DATABASE=mysql</li>
+	      <li>DATABASE_HOST=localhost</li>
+	      <li>DATABASE_NAME=cafeteria</li>
+	      <li>DATABASE_USERNAME=root</li>
+				<li>DATABASE_PASSWORD=</li>
+		</ul>
+	</li>
+	<li>you must adjust some pathes of css and javascript </li>
+	<li>finaly you can enjoy in our cafetria </li>
+</ol>
+<img src=>
 
