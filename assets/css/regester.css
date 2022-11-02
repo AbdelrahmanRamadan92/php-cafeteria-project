@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  height: 300px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  background-color: #dbb07e0a;
+  border-radius: 10px;
+  text-align: center;
+}
+form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  color: #726659;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+
+  margin: 0 0 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #da9f5b;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+body {
+  animation: scroll 70s linear infinite;
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"),
+    #111111;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+@keyframes scroll {
+  100% {
+    background-position: 0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+label {
+  font-family: "Roboto", sans-serif;
+}
+.outForm {
+  background-color: #dbb07e00;
+  height: 750px;
+}
+.div {
+  width: 100%;
+  height: 100%;
+  background-color: #702f2f00;
+}

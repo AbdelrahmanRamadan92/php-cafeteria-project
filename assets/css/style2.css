@@ -1,0 +1,258 @@
+.date-filter input,
+.date-filter select {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #da9f5b;
+    margin-right: 20px;
+    outline: transparent;
+}
+
+.date-filter select {
+    padding: 12px;
+
+}
+
+
+.date-filter {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+
+input[type="submit"] {
+    background-color: #795548;
+    color: #fff;
+    border: 1px solid #795548;
+}
+
+
+.table,
+thead {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #555;
+    border: 1px solid #da9f5b;
+}
+
+.table thead th {
+    background-color: #795548;
+    color: #fff;
+}
+
+.table td,
+.table th,
+.table thead th {
+    border-bottom: 1px solid #795548;
+    border-left: 1px solid #795548;
+    border-right: 1px solid #795548;
+    vertical-align: baseline;
+}
+
+
+.cart-num {
+    background-color: #da9f5b !important;
+    color: #2f1e1b;
+}
+
+.single-order-product {
+    background-color: #e7bf8f26;
+    padding-bottom: 9px;
+    margin-right: 10px;
+    flex: 23%;
+    max-width: 23%;
+    width: 23%;
+    margin-bottom: 10px;
+}
+
+
+
+.single-order-product img {
+    border-radius: 19px;
+    margin-top: 20px;
+    border: 1px solid #da9f5b;
+}
+
+.cart-num {
+    background-color: #da9f5b !important;
+    color: #2f1e1b;
+    top: 17px;
+    width: 47px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 28px;
+    right: 17px;
+}
+
+.single-order-product p {
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+
+
+
+.table,
+thead {
+    margin-bottom: 0;
+}
+
+.order-content {
+    border: 1px solid #795548;
+    margin-bottom: 30px;
+    padding-top: 12px;
+}
+
+
+.total {
+    text-align: right;
+    margin-right: 25px;
+    font-weight: 900;
+}
+
+table select {
+    background-color: transparent;
+}
+
+
+.checks table {
+    margin-bottom: 20px;
+}
+
+button.btn.btn-primary.btn-custom {
+    background-color: #8bc34a;
+    width: auto;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.pagination a {
+    margin: 10px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.pagination {
+
+    width: 100%;
+    justify-content: center;
+}
+
+input[name="updateStatus"] {
+    background-color: #795548;
+    line-height: 1;
+    border-color: #795548;
+    color: #fff;
+}
+
+.order-content .single-order-product {
+    flex: 15%;
+    max-width: 15%;
+    width: 15%;
+}
+
+.row.mt-5.table-responsive {
+    margin: 0;
+}
+
+.order-items.my-orders {
+    border: 1px solid #4e342e;
+    margin: 0 !important;
+    padding: 0;
+}
+
+thead th {
+    text-align: center;
+}
+
+.pagination a.active {
+    border: 1px solid #795548;
+}
+
+
+.menu-price {
+    position: absolute;
+    margin: 0;
+    top: -1px;
+    right: 17px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background: #DA9F5B;
+    font-size: 15px;
+}
+
+.table.table-bordered tbody,
+table.table.table1-orders tbody {
+    display: block;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.table.table-bordered thead,
+.table.table-bordered tbody tr,
+table.table.table1-orders thead,
+table.table.table1-orders tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+div#myDIV {
+    background-color: #da9f5b1f;
+    padding: 20px;
+}
+
+button#delete-product {
+    padding: 2px 8px;
+}
+
+span#product-total-price {
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+
+.dropdown-custom {
+  display: inline-block;
+  position: relative;
+      background-color: transparent;
+      margin-top: 6px;
+}
+
+.dropdown-custom button {
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+      background-color: #fff;
+      width:150px;
+}
+.dropdown-custom:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}

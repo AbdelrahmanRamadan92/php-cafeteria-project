@@ -1,0 +1,15 @@
+php_value display_errors 1
+php_value output_buffering on
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+    RewriteCond %{QUERY_STRING} (*)=(*)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?%1=%2 [NC,L] 
+    # RewriteRule ^([\w\/\-]+)/?$ index.php [QSA]
+
+</IfModule>
+Header set Access-Control-Allow-Origin "*"
+
