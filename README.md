@@ -1,5 +1,5 @@
 # php-cafeteria-project
-<h1>Cafeteria project created with php.</h1>
+<p>Cafeteria project created with php.</p>
 How to run Our Project
 <ol>
 	<li> download project .</li>
